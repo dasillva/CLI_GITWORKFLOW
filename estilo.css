@@ -1,98 +1,70 @@
 /*Criado por Carlos Da Silva para o curso de Gitworflow da Upinside */
 /* O * permite definir estilo para todos elementos da pagina*/
 /*  comitado a partir do eclipse*/
-*{
+* {
 	padding: 0;
 	margin: 0;
 	list-style: none;
 	font-family: 'Ubuntu', sans-serif;
 }
 
-.fontzero{
+.fontzero {
 	font-size: 0px;
 }
 
-body{
+body {
 	background-color: #f0efe7;
 }
 
-.container{
-	width: 900px;
-	/*width: 65.88%;*/
+.container {
+
+	width: 66%;
 	margin: 0 auto;
 }
 
-.main_header{
+.main_header {
 	text-align: center;
 	padding: 40px;
 }
 
-.main_article{
+.main_article {
 	text-align: center;
 	padding: 40px;
 }
 
-.main_article{
+.main_article {
 	background-color: #fcfcfa;
 	border: solid 1px #e2e0d8;
 }
 
-.main_article header p{
+.main_article header p {
 	margin-top: 20px;
 	font-weight: 700;
 }
 
-.main_article p{
+.main_article p {
 	margin-top: 10px;
 	font-weight: 300;
 }
 
-.article_single{
+.article_single {
 	padding: 40px;
 }
 
-.article_single p{
+.article_single p {
 	margin-top: 20px;
 }
 
-.article_single ul{
+.article_single ul {
 	margin: 20px 10px;
 }
 
-.article_single ul li{
+.article_single ul li {
 	margin-top: 5px;
 }
 
-/* .form_contact{
-	text-align: center;
-	padding: 40px;
-}
 
-.form_contact label, .form_contact input{
-	width: 700px;
-}
-
-.form_contact label p{
-	margin-top: 20px;
-}
-.form_contact input{
-	padding: 5px;
-	font-size: 0.875em;
-}
-
-.form_contact textarea{
-	width: 700px;
-	height: 60px;
-}
-
-.form_contact .btn{
-	padding: 10px 20px !important;
-	font-weight: 1em;
-	width: auto;
-	margin-top: 10px;
-} */
-
-.form_contact{
+.form_contact {
 	color: #f0efe7;
 	padding: 40px;
 	margin: 40px;
@@ -100,30 +72,31 @@ body{
 	border-radius: 10px;
 }
 
-.form_contact label p{
+.form_contact label p {
 	margin-top: 20px;
 }
-.form_contact input{
+
+.form_contact input {
 	padding: 5px;
 	font-size: 0.875em;
 }
 
-.form_contact textarea{
+.form_contact textarea {
 	height: 60px;
 }
 
-.form_contact .btn{
+.form_contact .btn {
 	padding: 10px 20px !important;
 	font-weight: 1em;
 	width: auto;
 	margin-top: 10px;
 }
 
-.form_contact label, .form_contact input, .form_contact textarea{
+.form_contact label, .form_contact input, .form_contact textarea {
 	width: 100%;
 }
 
-.main_footer{
+.main_footer {
 	text-align: center;
 	font-weight: 300;
 	font-size: 0.875em;
@@ -131,8 +104,8 @@ body{
 	padding: 40px;
 }
 
-  @media(max-width: 45em){
-	.container{
+@media ( max-width : 45em) {
+	.container {
 		width: 98%;
 	}
-}  
+}
